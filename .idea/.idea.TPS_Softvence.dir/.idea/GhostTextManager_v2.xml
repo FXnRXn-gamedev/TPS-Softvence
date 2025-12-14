@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GhostTextManager">
+    <option name="inputs">
+      <map>
+        <entry key="0&gt;[1/6] Compile [x64] Softvence_PlayerController.cpp&#10;0&gt;Softvence_Types&amp;Enums.generated.h(9,1): Error C4067 : unexpected tokens following preprocessor directive - expected a newline&#10;0&gt;#ifdef TPS_SOFTVENCE_Softvence_Types&amp;Enums_generated_h&#10;0&gt;^&#10;0&gt;Softvence_Types&amp;Enums.generated.h(12,38): Error C2008 : '&amp;': unexpected in macro definition&#10;0&gt;#define TPS_SOFTVENCE_Softvence_Types&amp;Enums_generated_h&#10;0&gt;                                     ^&#10;0&gt;[2/6] Compile [x64] Module.TPS_Softvence.gen.cpp&#10;0&gt;Softvence_Types&amp;Enums.generated.h(9,1): Error C4067 : unexpected tokens following preprocessor directive - expected a newline&#10;0&gt;#ifdef TPS_SOFTVENCE_Softvence_Types&amp;Enums_generated_h&#10;0&gt;^&#10;0&gt;Softvence_Types&amp;Enums.generated.h(12,38): Error C2008 : '&amp;': unexpected in macro definition&#10;0&gt;#define TPS_SOFTVENCE_Softvence_Types&amp;Enums_generated_h&#10;0&gt;                                     ^&#10;0&gt;Softvence_Types&amp;Enums.gen.cpp(12,54): Error C2143 : syntax error: missing ';' before '&amp;'&#10;0&gt;void EmptyLinkFunctionForGeneratedCodeSoftvence_Types&amp;Enums() {}&#10;0&gt;                                                     ^&#10;0&gt;Softvence_Types&amp;Enums.gen.cpp(12,6): Error C2182 : 'EmptyLinkFunctionForGeneratedCodeSoftvence_Types': this use of 'void' is not valid&#10;0&gt;void EmptyLinkFunctionForGeneratedCodeSoftvence_Types&amp;Enums() {}&#10;0&gt;     ^&#10;0&gt;Softvence_Types&amp;Enums.gen.cpp(12,55): Error C4430 : missing type specifier - int assumed. Note: C++ does not support default-int&#10;0&gt;void EmptyLinkFunctionForGeneratedCodeSoftvence_Types&amp;Enums() {}&#10;0&gt;                                                      ^&#10;0&gt;Softvence_Types&amp;Enums.gen.cpp(12,63): Error C2059 : syntax error: '{'&#10;0&gt;void EmptyLinkFunctionForGeneratedCodeSoftvence_Types&amp;Enums() {}&#10;0&gt;                                                              ^&#10;0&gt;Softvence_Types&amp;Enums.gen.cpp(12,63): Error C2143 : syntax error: missing ';' before '{'&#10;0&gt;Softvence_Types&amp;Enums.gen.cpp(12,63): Error C2447 : '{': missing function header (old-style formal list?)&#10;0&gt;[3/6] Compile [x64] Softvence_PlayerCharacter.cpp&#10;0&gt;Softvence_Types&amp;Enums.generated.h(9,1): Error C4067 : unexpected tokens following preprocessor directive - expected a newline&#10;0&gt;#ifdef TPS_SOFTVENCE_Softvence_Types&amp;Enums_generated_h&#10;0&gt;^&#10;0&gt;Softvence_Types&amp;Enums.generated.h(12,38): Error C2008 : '&amp;': unexpected in macro definition&#10;0&gt;#define TPS_SOFTVENCE_Softvence_Types&amp;Enums_generated_h&#10; &#10;&#10;solve error">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1765636802733" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="Solve error">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1765636332527" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="solve error">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1765631826402" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
