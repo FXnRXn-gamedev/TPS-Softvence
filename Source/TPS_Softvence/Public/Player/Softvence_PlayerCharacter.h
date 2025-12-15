@@ -8,11 +8,10 @@
 #include "Softvence_PlayerCharacter.generated.h"
 
 
-
-
+class USoftvence_StaminaComponent;
 class USpringArmComponent;
 class UCameraComponent;
-
+class USoftvence_HealthComponent;
 
 
 
@@ -39,43 +38,49 @@ public:
 #pragma endregion 
 	
 #pragma region Components
+	// Core Components
+	UPROPERTY(VisibleAnywhere, Category = "---Softvence---|Components")
+	USoftvence_HealthComponent* HealthComponent;
+
+	UPROPERTY(VisibleAnywhere, Category = "---Softvence---|Components")
+	USoftvence_StaminaComponent* StaminaComponent;
 	
 #pragma endregion 
 	
 	
 	// ================== STATE GETTERS ==================
     
-	UFUNCTION(BlueprintCallable, Category = "State")
+	UFUNCTION(BlueprintCallable, Category = "---Softvence---|State")
 	bool IsAiming() const { return bIsAiming; }
 
-	UFUNCTION(BlueprintCallable, Category = "State")
+	UFUNCTION(BlueprintCallable, Category = "---Softvence---|State")
 	bool IsFiring() const { return bIsFiring; }
 
-	UFUNCTION(BlueprintCallable, Category = "State")
+	UFUNCTION(BlueprintCallable, Category = "---Softvence---|State")
 	bool IsSprinting() const { return bIsSprinting; }
 
-	UFUNCTION(BlueprintCallable, Category = "State")
+	UFUNCTION(BlueprintCallable, Category = "---Softvence---|State")
 	bool IsInCover() const { return bIsInCover; }
 
-	UFUNCTION(BlueprintCallable, Category = "State")
+	UFUNCTION(BlueprintCallable, Category = "---Softvence---|State")
 	bool IsReloading() const { return bIsReloading; }
 
-	UFUNCTION(BlueprintCallable, Category = "State")
+	UFUNCTION(BlueprintCallable, Category = "---Softvence---|State")
 	EMovementStance GetMovementStance() const { return CurrentStance; }
 
-	UFUNCTION(BlueprintCallable, Category = "State")
+	UFUNCTION(BlueprintCallable, Category = "---Softvence---|State")
 	float GetLeanAmount() const { return CurrentLeanAmount; }
 
-	// UFUNCTION(BlueprintCallable, Category = "State")
+	// UFUNCTION(BlueprintCallable, Category = "---Softvence---|State")
 	// AWeaponBase* GetCurrentWeapon() const;
 
-	// UFUNCTION(BlueprintCallable, Category = "State")
+	// UFUNCTION(BlueprintCallable, Category = "---Softvence---|State")
 	// FVector GetAimLocation() const;
 	//
-	// UFUNCTION(BlueprintCallable, Category = "State")
+	// UFUNCTION(BlueprintCallable, Category = "---Softvence---|State")
 	// bool IsAlive() const;
 
-	UFUNCTION(BlueprintCallable, Category = "State")
+	UFUNCTION(BlueprintCallable, Category = "---Softvence---|State")
 	EFactionType GetFaction() const { return CharacterFaction; }
 	
 	

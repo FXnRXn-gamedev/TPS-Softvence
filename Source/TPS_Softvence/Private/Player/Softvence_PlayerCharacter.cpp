@@ -8,6 +8,8 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Net/UnrealNetwork.h"
 #include "Player/Component/Softvence_CharacterMovement.h"
+#include "Player/Component/Softvence_HealthComponent.h"
+#include "Player/Component/Softvence_StaminaComponent.h"
 
 
 // =====================================================================================================================
@@ -57,6 +59,10 @@ Super(ObjectInitializer.SetDefaultSubobjectClass<USoftvence_CharacterMovement>(A
 	FollowCamera->SetupAttachment(SpringArmComponent, USpringArmComponent::SocketName);
 	FollowCamera->bUsePawnControlRotation = false;
 	FollowCamera->FieldOfView = DefaultFOV;
+	
+	// Create Core Components
+	HealthComponent = CreateDefaultSubobject<USoftvence_HealthComponent>(TEXT("HealthComponent"));
+	StaminaComponent = CreateDefaultSubobject<USoftvence_StaminaComponent>(TEXT("StaminaComponent"));
 
 }
 
